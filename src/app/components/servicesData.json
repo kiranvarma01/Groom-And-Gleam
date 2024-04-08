@@ -1,0 +1,17 @@
+{
+    "services": [
+      {
+        "title": "Specialty Grooming",
+        "description": "100% Satisfaction Guaranteed. We understand that every pet is different, and that's why we offer a range of specialty grooming services to meet your pet's specific needs. From breed-specific cuts to skin and coat treatments, we've got everything your pet needs to look and feel their best. And with our satisfaction guarantee, you can trust that we'll always go the extra mile to make sure you're happy with our services."
+      },
+      {
+        "title": "Personalized Consultation",
+        "description": "Next-Level Care. At Groom & Gleam, we believe that every pet is unique, and that's why we offer personalized grooming services to meet your pet's individual needs. Our team of experts will work with you to create a grooming plan that's tailored to your pet's breed, coat type, and personality. With our next-level care, you can trust that your pet will always receive the best possible grooming experience."
+      },
+      {
+        "title": "Convenient Scheduling",
+        "description": "Here to Help. We know that your time is valuable, and that's why we offer convenient scheduling options to make your life easier. Whether you prefer to book online or over the phone, we've got you covered. And with our exceptional customer service, you can trust that we'll always be here to help you with any questions or concerns you may have."
+      }
+    ]
+  }
+  
