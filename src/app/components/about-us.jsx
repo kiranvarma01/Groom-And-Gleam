@@ -23,7 +23,7 @@ export default function AboutUs() {
        
         <div className="flex justify-center items-center w-screen pt-10 pb-20">
             <div  style={{ borderRadius: '300px' }} className="rounded-l-3xl rounded-r-16xl overflow-hidden inline-block">
-                <Image src="/contactus-img.webp" alt="Contact Us" width={900} height={900} layout="intrinsic" />
+                <Image src="/contactus-img.webp" alt="Contact Us" width={900} height={900}  />
             </div>
         </div>
       </div>

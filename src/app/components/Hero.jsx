@@ -26,7 +26,7 @@ export default function Hero() {
         </div>
         </div>
         <div className="lg:w-1/2 flex justify-center lg:justify-end items-center pt-16 lg:pt-4"  style={{ position: 'relative', width: '100%', maxWidth: '750px', height: '560px' }}>
-          <Image src="/petimage.webp" alt="Pet Image"  layout="fill" objectFit="cover"  />
+        <Image src="/petimage.webp" width={800} height={560} />
         </div>
 
       </div>
