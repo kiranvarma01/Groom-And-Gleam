@@ -11,7 +11,6 @@ export default function Home() {
     <AboutUs/>
     <OurServices/>
     <FAQ/>
-    <Footer/>
     </div>
   );
 }

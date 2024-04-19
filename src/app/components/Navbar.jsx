@@ -1,10 +1,13 @@
 // components/Navbar.js
 import Link from 'next/link';
 import React from 'react';
+import { getServerSession } from 'next-auth';
 import '../globals.css';
+import { options } from '../api/auth/[...nextauth]/options';
 
 
-const Navbar = () => {
+const Navbar = async () => {
+  const session = await getServerSession(options)
   return (
     <>
     <nav className="flex justify-between items-center">
@@ -26,6 +29,17 @@ const Navbar = () => {
         <li className=" hover:text-gray-800 transition-colors cursor-pointer">
           <Link href="/contact">Contact</Link>
         </li>
+        <li className=" hover:text-gray-800 transition-colors cursor-pointer">
+          <Link href="/faq">FAQ</Link>
+        </li>
+        {session ? (
+        <li className=" hover:text-gray-800 transition-colors cursor-pointer">
+          <Link href="/api/auth/signout?callbackUrl=/">Logout</Link>
+        </li>
+        ) : (
+          <Link href="/api/auth/signin">Login</Link>
+        )
+          }
       </ul>
     </nav>
      <div className="mx-auto my-0 h-0.25 bg-slate-800 " style={{ width: '95%', height: '1px' }}></div>

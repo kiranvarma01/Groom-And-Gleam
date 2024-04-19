@@ -1,5 +1,5 @@
 import React from 'react';
-import faqData from './faq.json'; // Adjust the path as needed if your file structure is different
+import faqData from './faq.json';
 
 export default function FAQ() {
     return (
