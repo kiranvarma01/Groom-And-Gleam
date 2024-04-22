@@ -20,8 +20,8 @@ export async function POST(req){
             )
         }
 
-        const hashPAssword = await bcrypt.hash(userData.password, 10);
-        userData.password = hashPAssword;
+        const hashPassword = await bcrypt.hash(userData.password, 10);
+        userData.password = hashPassword;
 
         await User.create(userData);
         return NextResponse.json({message:"User Created."},{status: 201})
