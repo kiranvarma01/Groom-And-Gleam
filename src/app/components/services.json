@@ -1,5 +1,8 @@
-{
-    "service1": [
+[
+  {
+    "id": "service1",
+    "main-title": "Small Breeds",
+    "services": [
       {
         "title": "Trim-Trim",
         "description": "Complete Hair Cut, Eye Cleaning, Ear Cleaning, Combing/Brushing",
@@ -28,67 +31,74 @@
         "price": "₹749",
         "linkText": "Book Now"
       }
-    ],
-    "service2": [
-        {
-          "title": "Full Grooming",
-          "description": "Professional Bath, Blow Drying, Hygiene Cut, Eye & Ear Cleaningg",
-          "duration": "1 hr",
-          "price": "₹2,000",
-          "linkText": "Book Now"
-        },
-        {
-          "title": "Trim-Trim",
-          "description": "Complete Hair Cut, Eye Cleaning, Ear Cleaning, Combing/Brushing",
-          "duration": "1 hr",
-          "price": "₹1,199",
-          "linkText": "Book Now"
-        },
-        {
-          "title": "Basic Spa",
-          "description": "Shampoo Bath, Blow Drying, Eye & Ear Cleaning, Combing",
-          "duration": "1 hr",
-          "price": "₹799",
-          "linkText": "Book Now"
-        },
-        {
-          "title": "Anti Ticks Spa",
-          "description": "Anti-Ticks Bath, Hygiene Cut, Eye & Ear Cleaning, Combing, Medical Spr...",
-          "duration": "1 hr",
-          "price": "₹1,399",
-          "linkText": "Book Now"
-        }
-      ],
-      "service3": [
-        {
-          "title": "Trim-Trim",
-          "description": "Complete Hair Cut, Eye Cleaning, Ear Cleaning, Combing/Brushing",
-          "duration": "1 hr",
-          "price": "₹1,299",
-          "linkText": "Book Now"
-        },
-        {
-          "title": "Full Grooming",
-          "description": "Professional Bath, Blow Drying, Hygiene Cut, Eye & Ear Cleaning, Combing...",
-          "duration": "1 hr",
-          "price": "₹2,300",
-          "linkText": "Book Now"
-        },
-        {
-          "title": "Anti Ticks Spa",
-          "description": "Anti-Ticks Bath, Hygiene Cut, Eye & Ear Cleaning, Combing, Medical Spray...",
-          "duration": "1 hr",
-          "price": "₹1,549",
-          "linkText": "Book Now"
-        },
-        {
-          "title": "Basic Spa",
-          "description": "Shampoo Bath, Blow Drying, Eye & Ear Cleaning, Combing",
-          "duration": "1 hr",
-          "price": "₹849",
-          "linkText": "Book Now"
-        }
-      ]
-    
+    ]
+  },
+  {
+    "id": "service2",
+    "main-title": "Medium Breeds",
+    "services": [
+      {
+        "title": "Full Grooming",
+        "description": "Professional Bath, Blow Drying, Hygiene Cut, Eye & Ear Cleaning",
+        "duration": "1 hr",
+        "price": "₹2,000",
+        "linkText": "Book Now"
+      },
+      {
+        "title": "Trim-Trim",
+        "description": "Complete Hair Cut, Eye Cleaning, Ear Cleaning, Combing/Brushing",
+        "duration": "1 hr",
+        "price": "₹1,199",
+        "linkText": "Book Now"
+      },
+      {
+        "title": "Basic Spa",
+        "description": "Shampoo Bath, Blow Drying, Eye & Ear Cleaning, Combing",
+        "duration": "1 hr",
+        "price": "₹799",
+        "linkText": "Book Now"
+      },
+      {
+        "title": "Anti Ticks Spa",
+        "description": "Anti-Ticks Bath, Hygiene Cut, Eye & Ear Cleaning, Combing, Medical Spray...",
+        "duration": "1 hr",
+        "price": "₹1,399",
+        "linkText": "Book Now"
+      }
+    ]
+  },
+  {
+    "id": "service3",
+    "main-title": "Large Breeds",
+    "services": [
+      {
+        "title": "Trim-Trim",
+        "description": "Complete Hair Cut, Eye Cleaning, Ear Cleaning, Combing/Brushing",
+        "duration": "1 hr",
+        "price": "₹1,299",
+        "linkText": "Book Now"
+      },
+      {
+        "title": "Full Grooming",
+        "description": "Professional Bath, Blow Drying, Hygiene Cut, Eye & Ear Cleaning, Combing...",
+        "duration": "1 hr",
+        "price": "₹2,300",
+        "linkText": "Book Now"
+      },
+      {
+        "title": "Anti Ticks Spa",
+        "description": "Anti-Ticks Bath, Hygiene Cut, Eye & Ear Cleaning, Combing, Medical Spray...",
+        "duration": "1 hr",
+        "price": "₹1,549",
+        "linkText": "Book Now"
+      },
+      {
+        "title": "Basic Spa",
+        "description": "Shampoo Bath, Blow Drying, Eye & Ear Cleaning, Combing",
+        "duration": "1 hr",
+        "price": "₹849",
+        "linkText": "Book Now"
+      }
+    ]
   }
-  
+]
