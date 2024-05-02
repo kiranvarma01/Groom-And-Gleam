@@ -33,6 +33,9 @@ const Navbar = async () => {
           <Link href="/faq">FAQ</Link>
         </li>
         <li className=" hover:text-gray-800 transition-colors cursor-pointer">
+          <Link href="/cart">Cart</Link>
+        </li>
+        <li className=" hover:text-gray-800 transition-colors cursor-pointer">
           <Link href="/Signin">Signin</Link>
         </li>
         {session ? (
