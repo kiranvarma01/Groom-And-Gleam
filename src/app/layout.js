@@ -1,19 +1,21 @@
 import { Inter } from "next/font/google";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
-import { CartProvider } from "./components/CartContext";  // Import the CartProvider
+import { CartProvider } from "./components/CartContext";  
 
 const inter = Inter({ subsets: ["latin"] });
 
 function RootLayout({ children }) {
   return (
-    <CartProvider>  {/* Wrap your layout in the CartProvider */}
+    <html lang="en">
+    <CartProvider>  
       <div className={inter.className}>
         <Navbar />
         {children}
         <Footer />
       </div>
     </CartProvider>
+     </html>
   );
 }
 

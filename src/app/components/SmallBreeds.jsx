@@ -20,10 +20,7 @@ const SmallBreeds = () => {
             <p className="text-gray-500">Price: {service.price}</p>
             <button 
               className="mt-4 px-4 py-2 bg-purple-500 text-white rounded hover:bg-purple-600 transition-colors duration-200 ease-in-out"
-              onClick={() => {
-                console.log('Button clicked');
-                addToCart(service);
-              }}
+              onClick={() => console.log('Button clicked')}
             >
               Add to Cart
             </button>
